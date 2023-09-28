@@ -111,3 +111,59 @@ table{
     height: 60px;
     padding: 20px;
 }
+@media (min-device-width: 320px) and (max-device-width: 568px) {
+    .container {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .main__wrapper 
+    {
+        display: block;
+        margin: 0 10px 0 10px;
+        
+    }
+    
+    .main__link 
+    {
+        display: flex;  
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .main__logo
+    {
+        display: flex;
+        margin: 5px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu li
+    {
+        margin-left: 0;
+        margin-bottom: 7px;
+    }
+    .main__links
+    {
+        margin-top: 20px;
+        
+    }
+    .table 
+    {
+        order: -2;
+    }
+    
+    #form
+    {
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .table__element th, td
+    {
+        font-size: 12px;
+        padding: 2px;
+    }
+   
+}
